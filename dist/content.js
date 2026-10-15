@@ -4,8 +4,8 @@
 export const TEXT = {
   page: {
     title: "Ezgi için",
-    description: "Udon’dan Ezgi’ye bir doğum günü hediyesi.",
-    worldLabel: "Gece bahçesi. WASD ile yürü, fareyle etrafına bak.",
+    description: "Udon’dan Ezgi’ye doğum günü hediyesi.",
+    worldLabel: "WASD ile yürü, fareyle etrafına bak.",
   },
   intro: {
     date: "12 Haziran’da aç",
@@ -66,10 +66,10 @@ export const TEXT = {
   },
   letter: {
     heading: "Bir not",
-    greeting: "Ezgi,",
+    greeting: "Sevgili Ezgi,",
     paragraphs: [
-      "Doğum gününü zamanında kutlayamadım. İçimde kalan bir “iyi ki doğdun” vardı; ben de bildiğim şekilde, sana küçük bir şey hazırlamak istedim. Sevdiğin mor, biraz ışık ve bir pasta.",
-      "Bazı şeyler eksik kaldı, biliyorum. Yine de yeni yaşının sana huzur, içten güldüğün anlar ve kendin gibi olabildiğin günler getirmesini dilerim.",
+      "Doğum gününü zamanında kutlayamadım, muhtemelen bu son olucak. İçimde kalan bir “iyi ki doğdun” vardı; ben de bildiğim şekilde, sana küçük bir şey hazırlamak istedim. Sevdiğin mor rengi, biraz ışık ve bir pasta.",
+      "Bazı şeyler eksik kaldı, Yine de yeni yaşının sana huzur, içten güldüğün anlar ve kendin gibi olabildiğin günler getirmesini dilerim.",
       "Umarım yüzünde küçük bir gülümseme bırakır.",
     ],
     final: "İyi ki doğdun.",
