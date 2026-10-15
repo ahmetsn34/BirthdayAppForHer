@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title">
+  <title id="title">Takodachi</title>
+  <defs>
+    <radialGradient id="body" cx="42%" cy="28%" r="78%"><stop stop-color="#b99bd8"/><stop offset=".57" stop-color="#8d6ab7"/><stop offset="1" stop-color="#61477f"/></radialGradient>
+    <linearGradient id="halo" x2="0" y2="1"><stop stop-color="#f8d68b"/><stop offset="1" stop-color="#b47c3d"/></linearGradient>
+  </defs>
+  <ellipse cx="258" cy="423" rx="166" ry="23" fill="#171022" opacity=".18"/>
+  <path d="M112 308c-24 16-42 54-28 78 15 24 37 15 52 1-6 36 22 54 48 32 15 35 48 31 65 5 18 28 51 28 69-1 24 24 58 8 57-23 22 20 53 12 53-15 1-35-24-64-48-77Z" fill="url(#body)" stroke="#463150" stroke-width="7" stroke-linejoin="round"/>
+  <path d="M119 236c-17-24-28-64-17-90 17 4 39 25 50 48 56-43 148-43 207-1 12-28 33-46 50-49 10 31-3 71-20 93 37 81 10 153-47 174-43 15-127 18-172-1-58-24-82-98-51-174Z" fill="url(#body)" stroke="#463150" stroke-width="8" stroke-linejoin="round"/>
+  <path d="m168 292 30-21 30 21M287 292l30-21 29 21" fill="none" stroke="#392644" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+  <ellipse cx="157" cy="316" rx="21" ry="10" fill="#d6a8c5" opacity=".55"/><ellipse cx="356" cy="316" rx="21" ry="10" fill="#d6a8c5" opacity=".55"/>
+  <path d="M231 308c9 9 16 9 25 1 9 8 17 8 26-1 1 36-40 45-51 0Z" fill="#4b2d55"/><path d="M247 329c9-6 19-5 24 0-7 9-17 10-24 0Z" fill="#d38da9"/><path d="m236 311 9 2-4 11Z" fill="#eee1e9"/>
+  <ellipse cx="258" cy="123" rx="70" ry="17" fill="none" stroke="#674b36" stroke-width="18"/><ellipse cx="258" cy="119" rx="70" ry="17" fill="none" stroke="url(#halo)" stroke-width="13"/>
+</svg>
