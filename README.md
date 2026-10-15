@@ -16,3 +16,5 @@ Originally developed to make a special girl happy on her birthday.
 * ### 📂 Current Status
 This repository is officially **archived** and transitioned into a standard portfolio piece. 
 Code works fine, life logic requires hotfix.
+
+Note: Updated after 1 year 
