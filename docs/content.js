@@ -1,0 +1,97 @@
+// YAZILARI BURADAN DÜZENLE
+// Tırnakları ve virgülleri koruman yeterli. Satır sonları için \n kullanabilirsin.
+// Mektuba paragraf eklemek için paragraphs listesine yeni bir metin ekle.
+export const TEXT = {
+  page: {
+    title: "Ezgi için",
+    description: "Udon’dan Ezgi’ye bir doğum günü hediyesi.",
+    worldLabel: "Gece bahçesi. WASD ile yürü, fareyle etrafına bak.",
+  },
+  intro: {
+    date: "12 Haziran’da aç",
+    title: "Hazır mısın,",
+    name: "Ezgi?",
+    loading: "Yükleniyor",
+    start: "Evet, hazırım",
+    loadingStatus: "Bahçe hazırlanıyor…",
+    desktopHint: "WASD ile yürü · Fareyle bak · E ile etkileş",
+    touchHint: "Soldaki çubukla yürü · Ekranı kaydırarak etrafına bak",
+    retry: "Yeniden dene",
+    error: "3D bahçe açılamadı. Güncel bir tarayıcıyla yeniden deneyebilirsin.",
+    fallback: "Notu oku",
+  },
+  controls: {
+    musicOn: "Müziği aç",
+    musicOff: "Müziği kapat",
+    musicTitle: "Müzik · M",
+    help: "Kontrolleri göster",
+    helpTitle: "Kontroller · H",
+    pause: "Duraklat",
+    pauseTitle: "Duraklat · Esc",
+    walk: "Yürü",
+    look: "Fareyle bak",
+    interact: "Etkileşim",
+    click: "/ tıkla",
+    touchWalk: "Yürü",
+    touchLook: "Etrafa bakmak için ekranı kaydır",
+    freeLook: "Fare kontrolünü al",
+  },
+  pause: {
+    title: "Duraklatıldı",
+    resume: "Devam et",
+    reset: "Başlangıca dön",
+  },
+  help: {
+    title: "Kontroller",
+    walk: "Bahçede yürü",
+    mouse: "Fare",
+    look: "Etrafına bak",
+    useKey: "E / TIKLA",
+    use: "Baktığın nesneyi kullan",
+    pause: "Duraklat, fareyi serbest bırak",
+    music: "Müziği aç / kapat",
+    aim: "Ortadaki noktayı nota veya pastaya çevir. Yaklaşınca tıklayabilir ya da E tuşuna basabilirsin. Ok tuşlarıyla da yürüyüp dönebilirsin.",
+    touch:
+      "Telefonda soldaki çubukla yürü, ekranı kaydırarak etrafına bak. Fare kilidi kullanılamazsa basılı tutup sürükleyebilirsin.",
+    close: "Geri dön",
+  },
+  wish: {
+    title: "Bir dilek tut.",
+    blow: "Mumları söndür",
+    close: "Geri dön",
+  },
+  easter: {
+    title: "WAH!",
+    close: "Geri dön",
+  },
+  letter: {
+    heading: "Bir not",
+    greeting: "Ezgi,",
+    paragraphs: [
+      "Doğum gününü zamanında kutlayamadım. İçimde kalan bir “iyi ki doğdun” vardı; ben de bildiğim şekilde, sana küçük bir şey hazırlamak istedim. Sevdiğin mor, biraz ışık ve bir pasta.",
+      "Bazı şeyler eksik kaldı, biliyorum. Yine de yeni yaşının sana huzur, içten güldüğün anlar ve kendin gibi olabildiğin günler getirmesini dilerim.",
+      "Umarım yüzünde küçük bir gülümseme bırakır.",
+    ],
+    final: "İyi ki doğdun.",
+    signature: "Udon",
+    closeLabel: "Notu kapat",
+    return: "Bahçeye dön",
+  },
+  objects: {
+    envelopeTo: "Ezgi’ye",
+    envelopeFrom: "Udon’dan",
+    note: { label: "Not", action: "Oku" },
+    cake: { label: "Pasta", action: "Bir dilek tut" },
+    takodachi: { label: "Takodachi", action: "Aç" },
+    relight: "Mumları yeniden yak",
+  },
+  messages: {
+    celebration: "İyi ki doğdun, Ezgi.",
+    musicError:
+      "Müzik başlatılamadı. Müzik düğmesine dokunarak yeniden deneyebilirsin.",
+    freeLook: "Etrafa bakmak için fareyi basılı tutup sürükleyebilirsin.",
+    relit: "Mumlar yeniden yandı.",
+    reset: "Başlangıca döndün.",
+    found: "Takodachi",
+  },
+};
