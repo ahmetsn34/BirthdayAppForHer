@@ -1,9 +1,7 @@
 // YAZILARI BURADAN DÜZENLE
 // Tırnakları ve virgülleri koruman yeterli. Satır sonları için \n kullanabilirsin.
 // Mektuba paragraf eklemek için paragraphs listesine yeni bir metin ekle.
-import { selectExperienceContent } from "./experience-content.js";
-
-const ORIGINAL_TEXT = {
+export const TEXT = {
   page: {
     title: "Ezgi için",
     description: "Udon’dan Ezgi’ye doğum günü hediyesi.",
@@ -97,8 +95,3 @@ const ORIGINAL_TEXT = {
     found: "Takodachi",
   },
 };
-
-export const TEXT = selectExperienceContent(
-  ORIGINAL_TEXT,
-  globalThis.location?.search ?? "",
-);
