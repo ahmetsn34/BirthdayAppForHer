@@ -12,8 +12,8 @@ const types = {
   ".woff2": "font/woff2",
   ".txt": "text/plain; charset=utf-8",
 };
-http
-  .createServer(async (req, res) => {
+export function createStaticServer() {
+  return http.createServer(async (req, res) => {
     try {
       const pathname = decodeURIComponent(
         new URL(req.url, "http://localhost").pathname,
@@ -40,5 +40,11 @@ http
       res.writeHead(404);
       res.end("Bulunamadı");
     }
-  })
-  .listen(4173, "127.0.0.1", () => console.log("Local: http://127.0.0.1:4173"));
+  });
+}
+
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+  createStaticServer().listen(4173, "127.0.0.1", () =>
+    console.log("Local: http://127.0.0.1:4173"),
+  );
+}

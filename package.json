@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node server.mjs",
-    "check": "node --check dist/app.js && node --check dist/content.js && node --check dist/garden.js && node --check dist/garden-details.js && node --check dist/config.js && node --check dist/cake.js && node --check dist/player.js && node --check dist/audio.js"
+    "check": "node scripts/check.mjs",
+    "test": "node --test"
   }
 }
